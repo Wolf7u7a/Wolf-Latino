@@ -1,26 +1,83 @@
-[
-  {
-    "id": "template-provider",
-    "name": "Template Provider",
-    "description": "A starter template for creating Nuvio providers.",
-    "version": "1.0.0",
-    "author": "Your Name",
-    "supportedTypes": [
-      "movie",
-      "tv"
-    ],
-    "filename": "providers/template.js",
-    "enabled": false,
-    "logo": "",
-    "contentLanguage": [
-      "en"
-    ],
-    "formats": [
-      "mp4",
-      "mkv"
-    ],
-    "limited": false,
-    "disabledPlatforms": [],
-    "supportsExternalPlayer": true
-  }
-]
+{
+  "name": "Latino Providers",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "cinecalidad",
+      "name": "CineCalidad",
+      "description": "Películas en Latino desde CineCalidad.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/cinecalidad.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "cuevanaubd",
+      "name": "CuevanaUBD",
+      "description": "Streams en Latino desde CuevanaUBD.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/cuevanaubd.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "embed69",
+      "name": "Embed69",
+      "description": "Streams en Latino/Español/Subtitulado desde Embed69.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/embed69.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "fuegocine",
+      "name": "FuegoCine",
+      "description": "Streams en Latino desde FuegoCine.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/fuegocine.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "hackstore2",
+      "name": "HackStore2",
+      "description": "Streams en Latino desde HackStore2.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/hackstore2.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "lamovie",
+      "name": "LaMovie",
+      "description": "Streams en Latino desde LaMovie.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/lamovie.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "sololatino",
+      "name": "SoloLatino",
+      "description": "Streams en Latino desde SoloLatino.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/sololatino.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    }
+  ]
+}
