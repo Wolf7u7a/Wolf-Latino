@@ -1,6 +1,6 @@
 {
   "name": "Latino Providers",
-  "version": "1.0.0",
+  "version": "1.3.0",
   "scrapers": [
     {
       "id": "cinecalidad",
@@ -76,6 +76,17 @@
       "author": "Other",
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/sololatino.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "peliserieshoy",
+      "name": "PelisSeriesHoy",
+      "description": "Streams en Latino desde PelisSeriesHoy.",
+      "version": "1.0.0",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/peliserieshoy.js",
       "enabled": true,
       "contentLanguage": ["es"]
     }
