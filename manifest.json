@@ -111,6 +111,17 @@
       "filename": "providers/vimeus.js",
       "enabled": true,
       "contentLanguage": ["es"]
+    },
+     {
+      "id": "tioplus",
+      "name": "TioPlus",
+      "description": "Streams en Latino desde TioPlus.app (Earnvids, Plus).",
+      "version": "1.0.32",
+      "author": "Other",
+      "supportedTypes": ["movie","tv"],
+      "filename": "providers/tioplus.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
     }
   ]
 }
