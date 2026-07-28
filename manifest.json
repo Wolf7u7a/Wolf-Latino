@@ -118,8 +118,20 @@
       "description": "Streams en Latino desde TioPlus.app (Earnvids, Plus).",
       "version": "1.0.32",
       "author": "Other",
-      "supportedTypes": ["movie","tv"],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/tioplus.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "pelisgo",
+      "name": "PelisGo",
+      "description": "Streams en Latino desde PelisGo.",
+      "version": "1.0.37",
+      "author": "Other",
+      "supportedTypes": ["movie", "tv"
+      ],
+      "filename": "providers/pelisgo.js",
       "enabled": true,
       "contentLanguage": ["es"]
     }
