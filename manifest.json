@@ -96,15 +96,21 @@
       "description": "Streams en Latino desde PelisPanda. Torrent + Vimeos, StreamWish, etc.",
       "version": "1.0.30",
       "author": "Other",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
+      "supportedTypes": ["movie", "tv"],
       "filename": "providers/pelispanda.js",
       "enabled": true,
-      "contentLanguage": [
-        "es"
-      ]
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "vimeus",
+      "name": "Vimeus",
+      "description": "Streams en Latino desde Vimeus.",
+      "version": "1.0.31",
+      "author": "Other",
+      "supportedTypes": ["movie","tv"],
+      "filename": "providers/vimeus.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
     }
   ]
 }
