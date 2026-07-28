@@ -134,6 +134,17 @@
       "filename": "providers/pelisgo.js",
       "enabled": true,
       "contentLanguage": ["es"]
+    },
+     {
+      "id": "pelishax",
+      "name": "PelisHax",
+      "description": "Streams en Latino desde PelisHax. StreamWish, VidHide.",
+      "version": "1.0.0",
+      "author": "AdrianJael",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/pelishax.js?v=1.0.0",
+      "enabled": true,
+      "contentLanguage": ["es"]
     }
   ]
 }
