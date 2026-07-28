@@ -89,6 +89,22 @@
       "filename": "providers/peliserieshoy.js",
       "enabled": true,
       "contentLanguage": ["es"]
+    },
+    {
+      "id": "pelispanda",
+      "name": "PelisPanda",
+      "description": "Streams en Latino desde PelisPanda. Torrent + Vimeos, StreamWish, etc.",
+      "version": "1.0.30",
+      "author": "Other",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelispanda.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ]
     }
   ]
 }
