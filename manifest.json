@@ -140,9 +140,20 @@
       "name": "PelisHax",
       "description": "Streams en Latino desde PelisHax. StreamWish, VidHide.",
       "version": "1.0.0",
-      "author": "AdrianJael",
+      "author": "Other",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/pelishax.js?v=1.0.0",
+      "filename": "providers/pelishax.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "unlimplay",
+      "name": "UnlimPlay",
+      "description": "Streams en Latino, Castellano y Subtitulado desde UnlimPlay.",
+      "version": "1.0.30",
+      "author": "Other",
+      "supportedTypes": ["movie","tv"],
+      "filename": "providers/unlimplay.js",
       "enabled": true,
       "contentLanguage": ["es"]
     }
